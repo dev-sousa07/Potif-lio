@@ -24,20 +24,16 @@
     }
   
     div#in {
+      display: flex;
+      flex-direction: row;
       margin: 10px;
       padding: 10px;
     }
   
     section#img {
-      width: 100%;
-      padding: 10px;
+        display: none;
     }
   
-    section#img img {
-      max-width: 100%;
-      height: auto;
-      display: block;
-      margin: 0 auto;
-    }
+   
   }
   
