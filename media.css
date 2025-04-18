@@ -3,4 +3,12 @@
  body{
     display: none;
  }
+
+ section{
+    display: none;
+ }
+
+ p, p1{
+    display: none;
+ }
 }
