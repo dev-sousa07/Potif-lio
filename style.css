@@ -221,27 +221,6 @@ article#b {
   font-size: 35px;
   }
 
-.container-grid2 {
-  background-color: #6857c613;
-  display: flex;
-  grid-template-columns: repeat(3, 1fr); /* 3 colunas de largura igual */
-  gap: 20px;    
-  justify-items: center;
-  width: 100%;
-  height: 400px;
-  margin-top: auto;
-  }
-  
-
-.grid-item2{
-  flex: auto;
-  width: 350px;
-  height: 150px;
-  margin-bottom: 10px;
-  text-align: center;
-  object-fit: cover;
-
-  }
 
 p#esp{
     display: inline-flex;  

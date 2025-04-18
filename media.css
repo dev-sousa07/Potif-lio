@@ -28,6 +28,15 @@ section#img img {
     margin: 0 auto;
 }
 
+ div.grid-item{
+    width: 200px;
+    height: 200px;
+ }
+
+ div.grid-item > img{
+    
+ }
+
   /* Ajuste nos parágrafos */
   section > p,
   section > p1 {
