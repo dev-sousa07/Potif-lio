@@ -13,6 +13,20 @@
       padding: 10px;
       text-align: left;
   }
+  
+  section#img {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+section#img img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
 
   /* Ajuste nos parágrafos */
   section > p,
