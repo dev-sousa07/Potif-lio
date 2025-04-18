@@ -1,49 +1,101 @@
-@media (max-width: 480px) {
-  /* Ajuste no header para centralizar ou alinhar à esquerda */
-  header {
-      padding-left: 10%;
-      flex-direction: column;
-      align-items: flex-start;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
   }
-
-  /* Tamanho menor para o título e remoção de transformações */
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #FEFEFE;
+    overflow-x: hidden;
+    border: none;
+    margin: 0; 
+  }
+  
+  header {
+    display: flex;
+    align-items: left;
+    padding-left: 40%;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #6857c6;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+    color: #777777;
+  }
+  
+  div#in {
+    margin: 20px;
+    font-family: Poppins2;
+    padding-right: 20px;
+  }
+  
   section {
-      font-size: 24px;
-      transform: none;
-      padding: 10px;
-      text-align: left;
+    text-align: left;
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    transform: translate(10%, 35%);
+    margin: 0%;
+  }
+  
+  section > p {
+    font-size: 18px;
+    font-family: Poppins2;
+    color: #777777;
+  }
+  
+  section > p1 {
+    font-size: 18px;
+    font-family: Poppins2;
+    color: #777777;
+    font-weight: bolder;
   }
   
   section#img {
-    display: none;
-}
-
-
-
-  /* Ajuste nos parágrafos */
-  section > p,
-  section > p1 {
-      font-size: 14px;
-      line-height: 1.5;
+    margin: 0%;
+    padding: 0%;
   }
-
-  /* Ajuste no iframe (ex: mapa ou vídeo) para ocupar toda a largura da tela */
-  iframe#a {
-      width: 100%;
-      height: 200px;
+  
+  /* ========================================
+     📱 MEDIA QUERY PARA TELAS DE CELULAR
+     ======================================== */
+  @media (max-width: 480px) {
+    header {
+      padding-left: 10%;
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    section {
+      font-size: 28px;
       transform: none;
-      margin-top: 20px;
-  }
-
-  /* Margens e padding menores no conteúdo */
-  div#in {
+      padding: 10px;
+    }
+  
+    section > p,
+    section > p1 {
+      font-size: 16px;
+    }
+  
+    div#in {
       margin: 10px;
       padding: 10px;
-  }
-
-  /* Centraliza os elementos do artigo */
-  article#a {
-      align-items: flex-start;
+    }
+  
+    section#img {
+      width: 100%;
       padding: 10px;
+    }
+  
+    section#img img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      margin: 0 auto;
+    }
   }
-}
+  
